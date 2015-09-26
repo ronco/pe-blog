@@ -1,7 +1,7 @@
 {
   "name": "pe-blog",
   "dependencies": {
-    "ember": "release",
+    "ember": "canary",
     "ember-cli-shims": "ember-cli/ember-cli-shims#0.0.3",
     "ember-cli-test-loader": "ember-cli-test-loader#0.1.3",
     "ember-data": "release",
