@@ -27,10 +27,20 @@ export default function() {
     this.get('/contacts/:id', 'user');
     this.get('/contacts/:id', ['contact', 'addresses']);
   */
-    this.get('/authors');
-    this.get('/authors/:id');
-    this.get('/posts');
-    this.get('/posts/:id');
+  this.get('/authors');
+  this.get('/authors/:id');
+  this.get('/posts', function(db, request) {
+    if(request.queryParams) {
+      return {
+        posts: db.posts.where(request.queryParams)
+      };
+    } else {
+      return {
+        posts: db.posts
+      };
+    }
+  });
+  this.get('/posts/:id');
 
   /*
     POST shorthands

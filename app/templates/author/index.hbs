@@ -1,0 +1,10 @@
+<ul>
+  {{#each model as |post|}}
+    {{#link-to 'author.post' post}}
+      <li>
+        <h3>{{post.title}}</h3>
+        <h5>Posted at {{post.date}} by {{post.author.name}}</h5>
+      </li>
+    {{/link-to}}
+  {{/each}}
+</ul>

@@ -1,3 +1,14 @@
 <h2 id="title">Welcome to Planet Express Blog (In the year 3000)</h2>
 
+{{#link-to 'index'}}<img src="/images/pe-logo.png">{{/link-to}}
 {{outlet}}
+
+<ul>
+{{#each model as |author|}}
+  {{#link-to 'author' author}}
+    <li>
+      <img src={{author.image}}>
+    </li>
+  {{/link-to}}
+{{/each}}
+</ul>
