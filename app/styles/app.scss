@@ -1,0 +1,53 @@
+@import 'materialize';
+@import 'ember-cli-materialize';
+
+body {
+  background: teal;
+}
+
+.pe-blog-app {
+  a {
+    color: darken(#b20000, 10%);
+  }
+
+  .left-side {
+    padding-top: 50px;
+    img {
+      width: 200px;
+    }
+  }
+
+  .author-icon {
+    background: #b20000;
+    width: 100px;
+    text-align: center;
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    height: 100px;
+    position: relative;
+    margin: 20px;
+
+    img {
+      height: 50px;
+      text-align: center;
+      top: 0;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: 0;
+    }
+  }
+
+  .content-pane {
+    background: #a2eeee;
+  }
+
+  .post {
+    img {
+      float: left;
+    }
+  }
+}

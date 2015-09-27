@@ -1,14 +1,28 @@
-<h2 id="title">Welcome to Planet Express Blog (In the year 3000)</h2>
+<div class="row pe-blog-app">
 
-{{#link-to 'index'}}<img src="/images/pe-logo.png">{{/link-to}}
-{{outlet}}
+  <div class="col s2 left-side">
+    {{#link-to 'index'}}<img src="/images/pe-logo.png">{{/link-to}}
+  </div>
+  <div class="col s8 content-pane">
+    <h2 id="title">Planet Express Blog</h2>
+    {{outlet}}
+  </div>
 
-<ul>
-{{#each model as |author|}}
-  {{#link-to 'author' author}}
-    <li>
-      <img src={{author.image}}>
-    </li>
-  {{/link-to}}
-{{/each}}
-</ul>
+  <div class="col s2 author-list">
+    <h3>Authors</h3>
+    <ul>
+      {{#each model as |author|}}
+        {{#link-to 'author' author}}
+          <li>
+            <div class="author-icon">
+              <img src={{author.image}}>
+            </div>
+          </li>
+        {{/link-to}}
+      {{/each}}
+    </ul>
+  </div>
+</div>
+
+{{!-- ember-cli-materialize modal container --}}
+{{md-modal-container}}
