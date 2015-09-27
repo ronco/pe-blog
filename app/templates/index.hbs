@@ -1,3 +1,11 @@
-{{#each model.authors as |author|}}
-  <h1>{{author.name}}</h1>
-{{/each}}
+<h1>Posts</h1>
+<ul>
+  {{#each model as |post|}}
+    {{#link-to 'post' post}}
+      <li>
+        <h3>{{post.title}}</h3>
+        <h5>Posted at {{post.date}} by {{post.author.name}}</h5>
+      </li>
+    {{/link-to}}
+  {{/each}}
+</ul>
