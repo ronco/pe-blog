@@ -26,6 +26,7 @@
     "ember-cli-content-security-policy": "0.4.0",
     "ember-cli-dependency-checker": "^1.0.1",
     "ember-cli-deploy": "^0.4.3",
+    "ember-cli-fastboot": "0.0.5",
     "ember-cli-htmlbars": "0.7.9",
     "ember-cli-htmlbars-inline-precompile": "^0.2.0",
     "ember-cli-ic-ajax": "0.2.1",
@@ -41,6 +42,8 @@
     "ember-export-application-global": "^1.0.3"
   },
   "dependencies": {
-    "dotenv": "^1.2.0"
+    "dotenv": "^1.2.0",
+    "ember-cli-meta-tags": "git+https://github.com/ronco/ember-cli-meta-tags.git#feature/fastboot",
+    "ember-cli-fastboot": "ronco/ember-cli-fastboot#demo-branch"
   }
 }
