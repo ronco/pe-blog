@@ -6,7 +6,8 @@ export default [
     title: 'Put Your Head on my Shoulder',
     author: 1,
     date: moment(faker.date.between('2999-12-25', '3004-01-01')).toISOString(),
-    content: `<p>I'm Santa Claus! Interesting. No, wait, the other thing: tedious. Alright, let's mafia things up a bit. Joey, burn down the ship. Clamps, burn down the crew. Now that the, uh, garbage ball is in space, Doctor, perhaps you can help me with my sexual inhibitions?</p>`
+    content: `<p>I'm Santa Claus! Interesting. No, wait, the other thing: tedious. Alright, let's mafia things up a bit. Joey, burn down the ship. Clamps, burn down the crew. Now that the, uh, garbage ball is in space, Doctor, perhaps you can help me with my sexual inhibitions?</p>`,
+    description: `I'm Santa Claus! Interesting. No, wait, the other thing: tedious. Alright, let's mafia things up a bit. Joey, burn down the ship. Clamps, burn down the crew. Now that the, uh, garbage ball is in space, Doctor, perhaps you can help me with my sexual inhibitions?`
   },
   {
     id: 2,
@@ -19,14 +20,16 @@ export default [
 <li>Yeah, lots of people did.</li>
 <li>I usually try to keep my sadness pent up inside where it can fester quietly as a mental illness.</li>
 <li>I haven't felt much of anything since my guinea pig died.</li>
-</ul>`
+</ul>`,
+    description: `I haven't felt much of anything since my guinea pig died. Ask her how her day was. For the last time, I don't like lilacs!  Your 'first' wife was the one who liked lilacs! Why did you bring us here? Then throw her in the laundry room, which will hereafter be referred to as "the brig".`
   },
   {
     id: 3,
     author: 8,
     title: 'The Route of All Evil',
     date: moment(faker.date.between('2999-12-25', '3004-01-01')).toISOString(),
-    content: `<p>WINDMILLS DO NOT WORK THAT WAY! GOOD NIGHT! Negative, bossy meat creature! Why yes! Thanks for noticing.</p>`
+    content: `<p>WINDMILLS DO NOT WORK THAT WAY! GOOD NIGHT! Negative, bossy meat creature! Why yes! Thanks for noticing.</p>`,
+    description: `WINDMILLS DO NOT WORK THAT WAY! GOOD NIGHT! Negative, bossy meat creature! Why yes! Thanks for noticing.`
   },
   {
     id: 4,
@@ -37,15 +40,16 @@ export default [
 <ol>
 <li>WINDMILLS DO NOT WORK THAT WAY! GOOD NIGHT!</li>
 <li>Oh, how awful. Did he at least die painlessly? &hellip;To shreds, you say. Well, how is his wife holding up? &hellip;To shreds, you say.</li>
-</ol>`
+</ol>`,
+    description: `Is that a cooking show? Hey, tell me something. You've got all this money. How come you always dress like you're doing your laundry? Well I'da done better, but it's plum hard pleading a case while awaiting trial for that there incompetence. Kids have names? You know, I was God once.`
   },
   {
     id: 5,
     author: 2,
     title: 'Fry and the Slurm Factory',
     date: moment(faker.date.between('2999-12-25', '3004-01-01')).toISOString(),
-    content: `<p>There's no part of that sentence I didn't like! This is the worst part. The calm before the battle. Uh, is the puppy mechanical in any way? Man, I'm sore all over. I feel like I just went ten rounds with mighty Thor. Of all the friends I've had&hellip; you're the first.</p>
-`
+    content: `<p>There's no part of that sentence I didn't like! This is the worst part. The calm before the battle. Uh, is the puppy mechanical in any way? Man, I'm sore all over. I feel like I just went ten rounds with mighty Thor. Of all the friends I've had&hellip; you're the first.</p>`,
+    description: `There's no part of that sentence I didn't like! This is the worst part. The calm before the battle. Uh, is the puppy mechanical in any way? Man, I'm sore all over. I feel like I just went ten rounds with mighty Thor. Of all the friends I've had&hellip; you're the first.`
   },
   {
     id: 6,
@@ -66,14 +70,16 @@ export default [
 <p>Now that the, uh, garbage ball is in space, Doctor, perhaps you can help me with my sexual inhibitions? I'm just glad my fat, ugly mama isn't alive to see this day. Is the Space Pope reptilian!? We're also Santa Claus! WINDMILLS DO NOT WORK THAT WAY! GOOD NIGHT! Leela, Bender, we're going grave robbing.</p>
 <p>Noooooo! Then throw her in the laundry room, which will hereafter be referred to as "the brig". Moving along&hellip; Good news, everyone! There's a report on TV with some very bad news!</p>
 <p>Why would a robot need to drink? And until then, I can never die? There's no part of that sentence I didn't like!</p>
-<p>I saw you with those two "ladies of the evening" at Elzars. Explain that. Um, is this the boring, peaceful kind of taking to the streets? Kif might! I'm sorry, guys. I never meant to hurt you. Just to destroy everything you ever believed in. Anyone who laughs is a communist! Bender?! You stole the atom.</p>`
+<p>I saw you with those two "ladies of the evening" at Elzars. Explain that. Um, is this the boring, peaceful kind of taking to the streets? Kif might! I'm sorry, guys. I never meant to hurt you. Just to destroy everything you ever believed in. Anyone who laughs is a communist! Bender?! You stole the atom.</p>`,
+    description: `Meh. For one beautiful night I knew what it was like to be a grandmother. Subjugated, yet honored. Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you! THE BIG BRAIN AM WINNING AGAIN!`
   },
   {
     id: 7,
     author: 2,
     title: 'Mars University',
     date: moment(faker.date.between('2999-12-25', '3004-01-01')).toISOString(),
-    content: `<p>The alien mothership is in orbit here. If we can hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate. Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you! With gusto. Belligerent and numerous. A true inspiration for the children. I never loved you.</p>`
+    content: `<p>The alien mothership is in orbit here. If we can hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate. Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you! With gusto. Belligerent and numerous. A true inspiration for the children. I never loved you.</p>`,
+    description: `The alien mothership is in orbit here. If we can hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate.`
   },
   {
     id: 8,
@@ -85,14 +91,16 @@ export default [
 <li>The alien mothership is in orbit here. If we can hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate.</li>
 <li>You don't know how to do any of those.</li>
 <li>Son, as your lawyer, I declare y'all are in a 12-piece bucket o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' mess you caused.</li>
-</ul>`
+</ul>`,
+    description: `Now that the, uh, garbage ball is in space, Doctor, perhaps you can help me with my sexual inhibitions? Why did you bring us here? Why did you bring us here? Is the Space Pope reptilian!? I'm Santa Claus!`
   },
   {
     id: 9,
     author: 9,
     title: 'The Farnsworth Parabox',
     date: moment(faker.date.between('2999-12-25', '3004-01-01')).toISOString(),
-    content: `<p>Oh, how awful. Did he at least die painlessly? &hellip;To shreds, you say. Well, how is his wife holding up? &hellip;To shreds, you say. Yeah, lots of people did. Does anybody else feel jealous and aroused and worried? Kif might! Moving along&hellip;</p>`
+    content: `<p>Oh, how awful. Did he at least die painlessly? &hellip;To shreds, you say. Well, how is his wife holding up? &hellip;To shreds, you say. Yeah, lots of people did. Does anybody else feel jealous and aroused and worried? Kif might! Moving along&hellip;</p>`,
+    description: `Oh, how awful. Did he at least die painlessly? &hellip;To shreds, you say. Well, how is his wife holding up? &hellip;To shreds, you say. Yeah, lots of people did.`
   },
   {
     id: 10,
@@ -105,14 +113,16 @@ export default [
 <li>In your time, yes, but nowadays shut up! Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for their stemcells.</li>
 <li>Hey! I'm a porno-dealing monster, what do I care what you think?</li>
 <li>For one beautiful night I knew what it was like to be a grandmother. Subjugated, yet honored.</li>
-</ol>`
+</ol>`,
+    description: `Humans dating robots is sick. You people wonder why I'm still single? It's 'cause all the fine robot sisters are dating humans! You don't know how to do any of those. There's no part of that sentence I didn't like! Good news, everyone! There's a report on TV with some very bad news!`
   },
   {
     id: 11,
     author: 7,
     title: 'The Prisoner of Benda',
     date: moment(faker.date.between('2999-12-25', '3004-01-01')).toISOString(),
-    content: `<p>I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. In your time, yes, but nowadays shut up! Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for their stemcells. Really?!</p>`
+    content: `<p>I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense. In your time, yes, but nowadays shut up! Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for their stemcells. Really?!</p>`,
+    description: `I just want to talk. It has nothing to do with mating. Fry, that doesn't make sense.`
   },
   {
     id: 12,
@@ -124,21 +134,24 @@ export default [
 <li>Yeah, lots of people did.</li>
 <li>Belligerent and numerous.</li>
 <li>Is that a cooking show?</li>
-</ul>`
+</ul>`,
+    description: `It's toe-tappingly tragic! Bender?! You stole the atom. Is that a cooking show? Ask her how her day was.`
   },
   {
     id: 13,
     author: 2,
     title: 'Future Stock',
     date: moment(faker.date.between('2999-12-25', '3004-01-01')).toISOString(),
-    content: `<p>There's no part of that sentence I didn't like! Hey! I'm a porno-dealing monster, what do I care what you think? No, just a regular mistake. WINDMILLS DO NOT WORK THAT WAY! GOOD NIGHT! These old Doomsday Devices are dangerously unstable. I'll rest easier not knowing where they are.</p>`
+    content: `<p>There's no part of that sentence I didn't like! Hey! I'm a porno-dealing monster, what do I care what you think? No, just a regular mistake. WINDMILLS DO NOT WORK THAT WAY! GOOD NIGHT! These old Doomsday Devices are dangerously unstable. I'll rest easier not knowing where they are.</p>`,
+    description: `There's no part of that sentence I didn't like! Hey! I'm a porno-dealing monster, what do I care what you think? No, just a regular mistake.`
   },
   {
     id: 14,
     author: 6,
     title: 'A Pharoah to Remember',
     date: moment(faker.date.between('2999-12-25', '3004-01-01')).toISOString(),
-    content: `<p>Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all. Negative, bossy meat creature! Morbo can't understand his teleprompter because he forgot how you say that letter that's shaped like a man wearing a hat. Why would a robot need to drink? Meh.</p>`
+    content: `<p>Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all. Negative, bossy meat creature! Morbo can't understand his teleprompter because he forgot how you say that letter that's shaped like a man wearing a hat. Why would a robot need to drink? Meh.</p>`,
+    description: `Yes, if you make it look like an electrical fire. When you do things right, people won't be sure you've done anything at all.`
   },
   {
     id: 15,
@@ -164,6 +177,7 @@ export default [
   fester quietly as a mental illness. Man, I'm sore all over. I feel
   like I just went ten rounds with mighty Thor. For the last time, I
   don't like lilacs!  Your 'first' wife was the one who liked
-  lilacs!</p>`
+  lilacs!</p>`,
+    description: `Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you! Ooh, name it after me! Son, as your lawyer, I declare y'all are in a 12-piece bucket o' trouble.`
   }
 ];

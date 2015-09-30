@@ -53,6 +53,7 @@
     "ember-radio-button": "1.0.7"
   },
   "dependencies": {
-    "dotenv": "^1.2.0"
+    "dotenv": "^1.2.0",
+    "ember-cli-meta-tags": "git+https://github.com/ronco/ember-cli-meta-tags.git#feature/service-implementation"
   }
 }
