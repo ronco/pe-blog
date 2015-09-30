@@ -2,12 +2,17 @@
 @import 'ember-cli-materialize';
 
 body {
-  background: teal;
+  background: #B29B9B;
+  color: #332626;
+}
+
+.nav-wrapper {
+  background: #B20000;
 }
 
 .pe-blog-app {
   a {
-    color: darken(#b20000, 10%);
+    color: #44654E;
   }
 
   .left-side {
@@ -42,7 +47,7 @@ body {
   }
 
   .content-pane {
-    background: #a2eeee;
+    background: #FDFFFE;
   }
 
   .post {
